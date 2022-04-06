@@ -129,12 +129,12 @@ Polling is a mechanism used by the Push technology whereby a request is sent by 
 
 **OR**
 HTTP Long Polling is a technique used to push information to a client as soon as possible on the server. As a result, the server does not have to wait for the client to send a request. In Long Polling, the server does not close the connection once it receives a request from the client.
-
+![long-polling](https://user-images.githubusercontent.com/80479635/161891047-968894a0-d4ba-4451-857f-36f130c5f6c1.jpg)
 
 
 # What are web sockets?
 **Answer->** The WebSocket API is an advanced technology that makes it possible to open a two-way interactive communication session between the user's browser and a server. With this API, you can send messages to a server and receive event-driven responses without having to poll the server for a reply.
-
+![websockets](https://user-images.githubusercontent.com/80479635/161891070-73a39e16-621a-4d23-86c3-feef1e4d1036.jpg)
 
 # How is web sockets different from HTTP?
 **Answer->** Differences between HTTP and WebSocket Connection: 
@@ -163,7 +163,7 @@ HTTP Connection:
 HTTPS (Hypertext Transfer Protocol Secure) is a secure version of the HTTP protocol that uses the SSL/TLS protocol for encryption and authentication. HTTPS is specified by RFC 2818 (May 2000) and uses port 443 by default instead of HTTP's port 80.
 
 The HTTPS protocol makes it possible for website users to transmit sensitive data such as credit card numbers, banking information, and login credentials securely over the internet. For this reason, HTTPS is especially important for securing online activities such as shopping, banking, and remote work. However, HTTPS is quickly becoming the standard protocol for all websites, whether or not they exchange sensitive data with users.
-
+![https-communication](https://user-images.githubusercontent.com/80479635/161891155-4061d7be-d6d5-4831-974e-b2f97db6268e.png)
 
 # What is Cross Origin Resource Sharing? ( CORS ) Why do we need it?
 **Answer->** Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
@@ -176,6 +176,7 @@ The CORS mechanism supports secure cross-origin requests and data transfers betw
 
 An example of a cross-origin request: the front-end JavaScript code served from https://domain-a.com uses XMLHttpRequest to make a request for https://domain-b.com/data.json.
 
+![cors_principle](https://user-images.githubusercontent.com/80479635/161891278-0b6d7284-a793-4a03-9b68-5396fb3915bf.png)
 
 
 # What does Access-Control-Allow-Origin header do?
@@ -342,13 +343,13 @@ A properly configured CDN may also help protect websites against some common mal
 
 # What is Progressive Renderring?
 **Answer->** Progressive Rendering is the technique of sequentially rendering portions of a webpage in the server and streaming it to the client in parts without waiting for the whole page to rendered.
-
-
+ 
+![progressive-rendering](https://user-images.githubusercontent.com/80479635/161891418-dd58741c-38b4-43b9-bdcf-146ed35a662b.png)
 
 # What is the difference between Preloading and Prefetching resources?
 
 **Answer->** Preload is an early fetch instruction to the browser to request a resource needed for a page (key scripts, Web Fonts, hero images). Prefetch serves a slightly different use case — a future navigation by the user (e.g between views or pages) where fetched resources and requests need to persist across navigations.
-
+![preload-prefetch](https://user-images.githubusercontent.com/80479635/161891494-682299a7-be8a-46d0-960a-10ddd47638e8.png)
 
 # What are service workers?
 **Answer->** A service worker is a type of web worker. It's essentially a JavaScript file that runs separately from the main browser thread, intercepting network requests, caching or retrieving resources from the cache, and delivering push messages.
